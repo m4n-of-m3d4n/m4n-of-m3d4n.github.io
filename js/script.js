@@ -79,6 +79,9 @@ document.querySelectorAll("li").forEach(element => {
       case "SPIDER SOCIETY":
         url = "https://discord.gg/MfsqsntQyu";
         break;
+      case "TUTTI I MIEI CANALI":
+        url = "https://www.youtube.com/@EmanueleMaruti/channels?view=49&flow=grid&shelf_id=1";
+        break;
       case "AMAZON SHOP":
         url = "https://www.amazon.it/shop/emanuelemaruti";
         break;
