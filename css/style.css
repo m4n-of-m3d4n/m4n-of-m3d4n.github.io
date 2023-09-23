@@ -100,7 +100,7 @@ body {
 .site-list li:hover {
   background-color: white;
   color: black;
-  opacity: 0.65;
+  opacity: 0.30;
   z-index: 1;
 }
 
