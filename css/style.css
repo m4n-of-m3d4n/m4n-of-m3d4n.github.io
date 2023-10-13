@@ -150,3 +150,7 @@ body {
     animation: shower 6s linear infinite;
   }
 }
+
+.unban {
+  display: none;
+}
