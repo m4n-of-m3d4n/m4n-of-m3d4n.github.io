@@ -1,0 +1,119 @@
+body {
+    background-color: #2e3440; 
+    color: #d8dee9; 
+    font-family: 'Poppins', sans-serif;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: 12px;
+    padding: 20px;
+    background-color: rgba(103, 128, 159, 0.1); 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #bf616a; 
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: #81a1c1;
+}
+
+input, textarea, select {
+    font-family: 'Poppins', sans-serif;
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #d8dee9;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.1);
+    color: #d8dee9;
+    box-sizing: border-box;
+}
+
+button {
+    font-family: 'Poppins', sans-serif;
+    padding: 10px 40px;
+    background-color: #bf616a;
+    color: #d8dee9;
+    border: 2px solid #d8dee9;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button:hover {
+    background-color: #964d55; 
+}
+
+.help-text {
+    font-size: 12px;
+    color: #81a1c1;
+}
+
+a {
+    color: #bf616a;
+}
+
+.acceptance {
+    font-size: 14px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.acceptance .checkbox {
+    display: inline-block;
+    position: relative;
+    margin-right: 14px;
+    vertical-align: top;
+}
+
+.acceptance .checkbox input {
+    position: absolute;
+    opacity: 0;
+}
+
+.acceptance .checkbox label {
+    position: relative;
+    cursor: pointer;
+}
+
+.acceptance .checkbox label::before {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #d8dee9;
+    border-radius: 3px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.acceptance .checkbox input:checked + label::before {
+    content: '\2713';
+    font-size: 1em;
+    text-align: center;
+    line-height: 20px;
+}
+
+#banReason, #unbanMotivation {
+    resize: none;
+    width: calc(100% - 20px);
+}
+
+@media (max-width: 600px) {
+    .container {
+        max-width: 90%;
+    }
+}

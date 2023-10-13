@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>🔓 Modulo Unban Spider Society</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Modulo Unban Spider Society</h1>
+        <form id="unbanForm">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="telegramNick">Nick Telegram:</label>
+            <input type="text" id="telegramNick" name="telegramNick" required>
+
+            <label for="telegramID">User ID Telegram:</label>
+            <input type="text" id="telegramID" name="telegramID" required>
+            <span class="help-text">(se non sai come fare <a href="https://t.me/Ilmioid_bot" target="_blank">premi qui</a>)</span>
+
+            <label for="banReason">Ragione del ban:</label>
+            <textarea id="banReason" name="banReason" rows="4" required></textarea>
+
+            <label for="unbanMotivation">Motivazione di unban:</label>
+            <textarea id="unbanMotivation" name="unbanMotivation" rows="4" required></textarea>
+
+            <div class="acceptance">
+                <label>Affermo di aver compreso le ragioni del mio ban e mi impegnerò a rispettare le regole in futuro. Sono consapevole che la richiesta di unban potrebbe non essere accettata.</label>
+                <div class="checkbox">
+                    <input type="checkbox" id="acceptance" name="acceptance">
+                    <label for="acceptance"></label>
+                </div>
+            </div>
+            <br>
+
+            <button type="submit" id="inviaRichiestaBtn">Invia Richiesta</button>
+        </form>
+    </div>
+
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
