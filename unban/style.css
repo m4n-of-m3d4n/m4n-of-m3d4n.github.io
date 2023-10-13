@@ -20,12 +20,14 @@ h1 {
 }
 
 label {
+    margin-left: 10px;
     display: block;
     margin-top: 10px;
     color: #81a1c1;
 }
 
 input, textarea, select {
+    margin-left: 10px;
     font-family: 'Poppins', sans-serif;
     width: calc(100% - 20px);
     padding: 10px;
@@ -56,6 +58,7 @@ button:hover {
 }
 
 .help-text {
+    margin-left: 10px;
     font-size: 12px;
     color: #81a1c1;
 }
@@ -65,6 +68,7 @@ a {
 }
 
 .acceptance {
+    margin-left: 10px;
     font-size: 14px;
     text-align: center;
     display: flex;
@@ -73,23 +77,27 @@ a {
 }
 
 .acceptance .checkbox {
+    margin-left: 10px;
     display: inline-block;
     position: relative;
-    margin-right: 14px;
+    margin-right: 5px;
     vertical-align: top;
 }
 
 .acceptance .checkbox input {
+    margin-left: 10px;
     position: absolute;
     opacity: 0;
 }
 
 .acceptance .checkbox label {
+    margin-left: 10px;
     position: relative;
     cursor: pointer;
 }
 
 .acceptance .checkbox label::before {
+    margin-left: 10px;
     content: '';
     display: inline-block;
     width: 20px;
@@ -101,6 +109,7 @@ a {
 }
 
 .acceptance .checkbox input:checked + label::before {
+    margin-left: 10px;
     content: '\2713';
     font-size: 1em;
     text-align: center;
