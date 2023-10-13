@@ -14,7 +14,7 @@ function inviaRichiesta(event) {
         acceptance: document.getElementById('acceptance').checked ? 'Accettato' : 'Non accettato'
     };
 
-    emailjs.send('service_0nknsu3', 'template_jl082ae', formData)
+    emailjs.send('service_0nknsu3', 'template_vjsu17k', formData)
         .then(function(response) {
             alert('Email inviata con successo!');
         }, function(error) {
