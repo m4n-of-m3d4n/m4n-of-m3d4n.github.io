@@ -82,8 +82,8 @@ document.querySelectorAll("li").forEach(element => {
       case "TUTTI I MIEI CANALI":
         url = "https://www.youtube.com/@EmanueleMaruti/channels?view=49&flow=grid&shelf_id=1";
         break;
-      case "AMAZON SHOP":
-        url = "https://www.amazon.it/shop/emanuelemaruti";
+      case "ABBONATI":
+        url = "https://www.youtube.com/@EmanueleMaruti/join";
         break;
       case "DONAZIONI":
         url = "https://www.paypal.com/paypalme/EmanueleMaruti";
