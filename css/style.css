@@ -49,7 +49,7 @@ body {
   top: 0;
   width: 2px;
   height: 200px;
-  background-image: linear-gradient(to bottom, transparent, #eb6123);
+  background-image: linear-gradient(to bottom, transparent, #FE6400);
   /* background-image: linear-gradient(to bottom, transparent, #c50e12); */
   animation: shower 4s linear infinite;
   z-index: -1;
